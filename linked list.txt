@@ -1,0 +1,13 @@
+LINKED LISTS
+
+A linked list is a collection of nodes. It is a type of data structure. 
+
+A node is an element in a linked list.
+
+A node is divided into two namely:
+	1. Data (also known as VALUE).
+	2. Pointer/Next (also known as the reference to the next data/value)
+
+The first node is referred to as the HEAD, and serves as the beginning point for any iteration through the array.
+
+The last node must have its reference pointing to NONE, to indicate the end of the linked list.
