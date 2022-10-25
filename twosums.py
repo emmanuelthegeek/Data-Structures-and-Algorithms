@@ -17,12 +17,12 @@ class Solution:
 #Using Dictionary method
 class Solution:
     def twoSum(self, nums:List[int], target:int)->List[int]:
-        new_name = {}
+        new_nums = {}
         for x, y in enumerate(nums):
-            if target - num in new_name:
-                return([new_name[target - new_name], x])
-            elif num not in new_name:
-                new_name[num] = x
+            if target - y in new_nums:
+                return([new_nums[target - new_nums], x])
+            elif y not in new_nums:
+                new_nums[y] = x
 
 
         
