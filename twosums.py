@@ -21,6 +21,8 @@ class Solution:
         for x, y in enumerate(nums):
             if target - num in new_name:
                 return([new_name[target - new_name], x])
+            elif num not in new_name:
+                new_name[num] = x
 
 
         
